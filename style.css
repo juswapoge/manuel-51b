@@ -1,0 +1,161 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Lilita One', cursive;
+}
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7B7FAC;
+}
+
+.card{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 290px;
+  
+}
+
+.dandt{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.user{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 290px;
+  
+}
+
+.mail{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.birth{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 290px;
+}
+
+.number{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 290px;
+}
+
+.serts{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 290px;
+}
+
+.url{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 290px;
+}
+
+.rate{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  width: 290px;
+}
+
+.name{
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+ul{
+  list-style: none;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+ul li{
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+ul li:hover{
+  transform: scale(1.1);
+  
+}
+
+
+#red{
+  background-color: #FF4D4D;
+}
+
+#blue {
+  background-color: #4D4EFF;
+}
+
+#green {
+  background-color: #4DFF87;
+}
+
+#yellow {
+  background-color: #E7FF4D;
+}
+
+#gray {
+  background-color: #868686;
+}
+
+/* Color selected styles */
+
+body.red{
+  background-color: #FF4D4D;
+  color: #FF4D4D;
+}
+
+body.blue{
+  background-color: #4D4EFF;
+  color: #4D4EFF;
+}
+
+body.green{
+  background-color: #4DFF87;
+  color: #4DFF87;
+}
+
+body.yellow{
+  background-color: #E7FF4D;
+  color: #E7FF4D;
+}
+
+body.gray{
+  background-color: #868686;
+  color: #868686;
+}
